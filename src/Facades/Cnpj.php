@@ -1,4 +1,5 @@
-<?php namespace Wmnk\Cnpj\Facades;
+<?php
+namespace WilliamNovak\Cnpj\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

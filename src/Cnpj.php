@@ -1,4 +1,5 @@
-<?php namespace Wmnk\Cnpj;
+<?php
+namespace WilliamNovak\Cnpj;
 
 use BadMethodCallException;
 

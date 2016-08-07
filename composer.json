@@ -1,5 +1,5 @@
 {
-    "name": "wmnk/cnpj",
+    "name": "william-novak/laravel-cnpj",
     "description": "A PHP ...",
     "keywords": ["laravel", "cnpj"],
     "license" : "MIT",
