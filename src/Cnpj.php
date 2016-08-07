@@ -6,9 +6,9 @@ use BadMethodCallException;
 class Cnpj {
 
 
-    public fuction testando()
+    public function test()
     {
-        return "um teste de CNPJ";
+        return __CLASS__ . __FUNCTION__;
     }
     /**
      * Changing detection type to extended.
