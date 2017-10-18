@@ -1,9 +1,6 @@
 # laravel-cnpj
 =====
 
-A PHP [...]
-
-
 Installation
 ------------
 
@@ -22,7 +19,7 @@ Add the service provider in `app/config/app.php`:
 'WilliamNovak\Cnpj\CnpjServiceProvider::class',
 ```
 
-And add the Agent alias to `app/config/app.php`:
+And add the Class alias to `app/config/app.php`:
 
 ```php
 'Cnpj' => WilliamNovak\Cnpj\Facades\Cnpj::class,
@@ -31,7 +28,7 @@ And add the Agent alias to `app/config/app.php`:
 Basic Usage
 -----------
 
-Start by creating an `Agent` instance (or use the `Agent` Facade if you are using Laravel):
+Start by creating an `Cnpj` instance (or use the `Cnpj` Facade if you are using Laravel):
 
 ```php
 use WilliamNovak\Cnpj\Cnpj as Cnpj;
@@ -46,4 +43,4 @@ echo "</pre>";
 
 ## License
 
-Laravel User Agent is licensed under [The MIT License (MIT)](LICENSE).
+Laravel Cnpj is licensed under [The MIT License (MIT)](LICENSE).
