@@ -25,9 +25,8 @@ class CnpjServiceProvider extends ServiceProvider {
      */
     public function register()
     {
-         $this->app->singleton('Cnpj', function(){
-            return new \william-novak\laravel-cnpj\Cnpj;
+        $this->app->singleton('cnpj', function(){
+            return new \wunilberto\laravel-cnpj\Cnpj;
         });
     }
-
 }
